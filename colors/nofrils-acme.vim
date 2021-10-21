@@ -70,9 +70,22 @@ hi TabLineSel term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse g
 
 " Diff
 hi DiffAdd term=NONE cterm=NONE ctermfg=2 ctermbg=NONE gui=NONE guifg=#008000 guibg=NONE
+hi DiffAdded term=NONE cterm=NONE ctermfg=2 ctermbg=NONE gui=NONE guifg=#008000 guibg=NONE
 hi DiffChange term=NONE cterm=NONE ctermfg=94 ctermbg=NONE gui=NONE guifg=#875f00 guibg=NONE
+hi DiffChanged term=NONE cterm=NONE ctermfg=94 ctermbg=NONE gui=NONE guifg=#875f00 guibg=NONE
 hi DiffDelete term=NONE cterm=NONE ctermfg=1 ctermbg=NONE gui=NONE guifg=#800000 guibg=NONE
+hi DiffRemoved term=NONE cterm=NONE ctermfg=1 ctermbg=NONE gui=NONE guifg=#800000 guibg=NONE
 hi DiffText term=NONE cterm=NONE ctermfg=4 ctermbg=NONE gui=NONE guifg=#000080 guibg=NONE
+
+" LSP Diagnostics
+"hi LspDiagnosticsDefaultInformation 
+hi LspDiagnosticsUnderlineInformation gui=underline
+"hi LspDiagnosticsDefaultHint
+hi LspDiagnosticsUnderlineHint gui=underline
+hi LspDiagnosticsDefaultError guifg=#F05070
+hi LspDiagnosticsUnderlineError gui=underline guifg=#F05070
+hi LspDiagnosticsDefaultWarning guifg=#A09040
+hi LspDiagnosticsUnderlineWarning gui=underline guifg=#A09040
 
 " Spell
 hi SpellBad term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline guifg=#cd00cd guibg=NONE
@@ -84,7 +97,7 @@ hi SpellRare term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline
 hi Menu term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Scrollbar term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi TabLineFill term=NONE cterm=NONE ctermfg=fg ctermbg=136 gui=NONE guifg=fg guibg=#af8700
-hi TabLine term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+hi TabLine term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=#af8700
 hi Tooltip term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
 " Syntax Highsepiaing (or lack there of)
@@ -129,6 +142,12 @@ hi SneakLabelMask term=NONE cterm=NONE ctermfg=black ctermbg=195 gui=NONE guifg=
 hi SneakTarget term=NONE cterm=NONE ctermfg=black ctermbg=195 gui=NONE guifg=black guibg=#d7ffff
 hi SneakLabelTarget term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guifg=black guibg=#d7afff
 hi SneakScope term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guifg=black guibg=#d7afff
+
+" FocusHL
+hi FocusHL_red guibg=#FF8090
+hi FocusHL_purple guibg=#FF90FF
+hi FocusHL_green guibg=#80FF80
+hi FocusHL_blue guibg=#AFAFFF
 
 " Helper Functions
 function! NofrilsFocusComments()

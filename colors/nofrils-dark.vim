@@ -69,10 +69,23 @@ hi Visual term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg
 hi VisualNOS term=reverse,underline cterm=reverse,underline ctermfg=NONE ctermbg=NONE gui=reverse,underline guifg=NONE guibg=NONE
 
 " Diff
-hi DiffAdd term=NONE cterm=NONE ctermfg=2 ctermbg=NONE gui=NONE guifg=#008000 guibg=NONE
+hi DiffAdd term=NONE cterm=NONE ctermfg=2 ctermbg=NONE gui=NONE guifg=#00E000 guibg=NONE
+hi DiffAdded term=NONE cterm=NONE ctermfg=2 ctermbg=NONE gui=NONE guifg=#00E000 guibg=NONE
 hi DiffChange term=NONE cterm=NONE ctermfg=3 ctermbg=NONE gui=NONE guifg=#808000 guibg=NONE
-hi DiffDelete term=NONE cterm=NONE ctermfg=1 ctermbg=NONE gui=NONE guifg=#800000 guibg=NONE
+hi DiffChanged term=NONE cterm=NONE ctermfg=3 ctermbg=NONE gui=NONE guifg=#808000 guibg=NONE
+hi DiffDelete term=NONE cterm=NONE ctermfg=1 ctermbg=NONE gui=NONE guifg=#D00000 guibg=NONE
+hi DiffRemoved term=NONE cterm=NONE ctermfg=1 ctermbg=NONE gui=NONE guifg=#D00000 guibg=NONE
 hi DiffText term=NONE cterm=NONE ctermfg=4 ctermbg=NONE gui=NONE guifg=#000080 guibg=NONE
+
+" LSP Diagnostics
+"hi LspDiagnosticsDefaultInformation 
+hi LspDiagnosticsUnderlineInformation gui=underline
+"hi LspDiagnosticsDefaultHint
+hi LspDiagnosticsUnderlineHint gui=underline
+hi LspDiagnosticsDefaultError guifg=#F05070
+hi LspDiagnosticsUnderlineError gui=underline guifg=#F05070
+hi LspDiagnosticsDefaultWarning guifg=#F0D090
+hi LspDiagnosticsUnderlineWarning gui=underline guifg=#F0D090
 
 " Spell
 hi SpellBad term=underline cterm=underline ctermfg=13 ctermbg=NONE gui=underline guifg=#FF00FF guibg=NONE
@@ -129,6 +142,12 @@ hi SneakLabelMask term=NONE cterm=NONE ctermfg=black ctermbg=195 gui=NONE guifg=
 hi SneakTarget term=NONE cterm=NONE ctermfg=black ctermbg=195 gui=NONE guifg=black guibg=#d7ffff
 hi SneakLabelTarget term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guifg=black guibg=#d7afff
 hi SneakScope term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guifg=black guibg=#d7afff
+
+" FocusHL
+hi FocusHL_red guibg=#B05050
+hi FocusHL_purple guibg=#FF90FF
+hi FocusHL_green guibg=#20B020
+hi FocusHL_blue guibg=#7070CF
 
 " Helper Functions
 function! NofrilsFocusComments()
