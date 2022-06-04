@@ -38,6 +38,7 @@ hi SpecialComment term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#
 hi SpecialKey term=NONE cterm=NONE ctermfg=240 ctermbg=bg gui=NONE guifg=#585858 guibg=bg
 hi StatusLineNC term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=fg guibg=#d7ffff
 hi VertSplit term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=fg guibg=#d7ffff
+hi WinSeparator term=NONE cterm=NONE ctermfg=fg ctermbg=230 gui=NONE guifg=fg guibg=#ffffd7
 
 " Highlight
 hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=228 gui=NONE guifg=NONE guibg=#ffff87
@@ -144,26 +145,26 @@ hi SneakLabelTarget term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guif
 hi SneakScope term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guifg=black guibg=#d7afff
 
 " Dap
-hi DapUIVariable term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIScope term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIType term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIValue term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+hi DapUIVariable NONE
+hi DapUIScope NONE
+hi DapUIType NONE
+hi DapUIValue NONE
 hi DapUIModifiedValue term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=bold guifg=NONE guibg=NONE
-hi DapUIDecoration term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIThread term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIStoppedThread term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIFrameName term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUISource term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUILineNumber term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIFloatBorder term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIWatchesEmpty term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIWatchesValue term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIWatchesError term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIBreakpointsPath term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIBreakpointsInfo term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIBreakpointsCurrentLine term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIBreakpointsLine term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi DapUIBreakpointsDisabledLine term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+hi DapUIDecoration NONE
+hi DapUIThread NONE
+hi DapUIStoppedThread NONE
+hi DapUIFrameName NONE
+hi DapUISource NONE
+hi DapUILineNumber NONE
+hi DapUIFloatBorder NONE
+hi DapUIWatchesEmpty NONE
+hi DapUIWatchesValue NONE
+hi DapUIWatchesError NONE
+hi DapUIBreakpointsPath NONE
+hi DapUIBreakpointsInfo NONE
+hi DapUIBreakpointsCurrentLine NONE
+hi DapUIBreakpointsLine NONE
+hi DapUIBreakpointsDisabledLine NONE
 
 " FocusHL
 hi FocusHL_red guibg=#FF8090
