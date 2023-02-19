@@ -172,6 +172,13 @@ hi FocusHL_purple guibg=#FF90FF
 hi FocusHL_green guibg=#80FF80
 hi FocusHL_blue guibg=#AFAFFF
 
+hi NeotestPassed ctermfg=black guifg=#000000
+hi NeotestFailed ctermfg=red guifg=#FF7080
+hi NeotestFile ctermfg=black guifg=#000000
+hi NeotestDir ctermfg=black guifg=#000000
+
+hi MasonNormal guibg=#ffffd7
+
 " Helper Functions
 function! NofrilsFocusComments()
     hi Comment term=NONE cterm=NONE ctermfg=black ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE

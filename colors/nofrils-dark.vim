@@ -149,6 +149,8 @@ hi FocusHL_purple guibg=#FF90FF
 hi FocusHL_green guibg=#20B020
 hi FocusHL_blue guibg=#7070CF
 
+hi MasonNormal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#151515
+
 " Helper Functions
 function! NofrilsFocusComments()
     hi Comment term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
