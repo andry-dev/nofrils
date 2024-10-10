@@ -24,7 +24,9 @@ endif
 set background=light
 
 " Baseline
-hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=230 gui=NONE guifg=#000000 guibg=#ffffd7
+hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=230 gui=NONE guifg=#000000 guibg=#ffffec
+hi NormalFloat term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#000000 guibg=#ffefc7
+" hi FloatBorder term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#000000 guibg=#efefc7
 
 " Faded
 hi ColorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#dadada
@@ -38,7 +40,7 @@ hi SpecialComment term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#
 hi SpecialKey term=NONE cterm=NONE ctermfg=240 ctermbg=bg gui=NONE guifg=#585858 guibg=bg
 hi StatusLineNC term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=fg guibg=#d7ffff
 hi VertSplit term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=fg guibg=#d7ffff
-hi WinSeparator term=NONE cterm=NONE ctermfg=fg ctermbg=230 gui=NONE guifg=fg guibg=#ffffd7
+hi WinSeparator term=NONE cterm=NONE ctermfg=fg ctermbg=230 gui=NONE guifg=fg guibg=#ffffec
 
 " Highlight
 hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=228 gui=NONE guifg=NONE guibg=#ffff87
@@ -79,7 +81,7 @@ hi DiffRemoved term=NONE cterm=NONE ctermfg=1 ctermbg=NONE gui=NONE guifg=#80000
 hi DiffText term=NONE cterm=NONE ctermfg=4 ctermbg=NONE gui=NONE guifg=#000080 guibg=NONE
 
 " LSP Diagnostics
-"hi LspDiagnosticsDefaultInformation 
+"hi LspDiagnosticsDefaultInformation
 hi LspDiagnosticsUnderlineInformation gui=underline
 "hi LspDiagnosticsDefaultHint
 hi LspDiagnosticsUnderlineHint gui=underline
@@ -177,12 +179,11 @@ hi NeotestFailed ctermfg=red guifg=#FF7080
 hi NeotestFile ctermfg=black guifg=#000000
 hi NeotestDir ctermfg=black guifg=#000000
 
-hi MasonNormal guibg=#ffffd7
 
 " Helper Functions
 function! NofrilsFocusComments()
     hi Comment term=NONE cterm=NONE ctermfg=black ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
-    hi Normal term=NONE cterm=NONE ctermfg=136 ctermbg=230 gui=NONE guifg=#000000 guibg=#ffffd7
+    hi Normal term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#000000 guibg=#ffffec
     hi LineNr term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#af8700 guibg=NONE
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -194,7 +195,7 @@ endfunction
 
 function! NofrilsFocusCode()
     hi Comment term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
-    hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=230 gui=NONE guifg=#000000 guibg=#ffffd7
+    hi Normal term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#000000 guibg=#ffffec
     hi LineNr term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#af8700 guibg=NONE
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -207,7 +208,7 @@ endfunction
 
 function! NofrilsNormal()
     hi Comment term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
-    hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=230 gui=NONE guifg=#000000 guibg=#ffffd7
+    hi Normal term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#000000 guibg=#ffffec
     hi LineNr term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#af8700 guibg=NONE
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
