@@ -26,7 +26,7 @@ set background=light
 " Baseline
 hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=230 gui=NONE guifg=#000000 guibg=#ffffec
 hi NormalFloat term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#000000 guibg=#ffefc7
-" hi FloatBorder term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#000000 guibg=#efefc7
+hi FloatBorder term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#000000 guibg=#ffffec
 
 " Faded
 hi ColorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#dadada
@@ -178,6 +178,23 @@ hi NeotestPassed ctermfg=black guifg=#000000
 hi NeotestFailed ctermfg=red guifg=#FF7080
 hi NeotestFile ctermfg=black guifg=#000000
 hi NeotestDir ctermfg=black guifg=#000000
+
+let g:terminal_color_0 = "#220000"
+let g:terminal_color_2 = "#2b0703"
+let g:terminal_color_4 = "#391516"
+let g:terminal_color_6 = "#482222"
+let g:terminal_color_8 = "#57302f"
+let g:terminal_color_10 = "#673e3d"
+let g:terminal_color_12 = "#774d4c"
+let g:terminal_color_14 = "#875c5a"
+let g:terminal_color_1 = "#260000"
+let g:terminal_color_3 = "#310e0e"
+let g:terminal_color_5 = "#401c1c"
+let g:terminal_color_7 = "#4f2929"
+let g:terminal_color_9 = "#5f3736"
+let g:terminal_color_11 = "#6f4544"
+let g:terminal_color_13 = "#7f5453"
+let g:terminal_color_15 = "#8f6362"
 
 
 " Helper Functions

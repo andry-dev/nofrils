@@ -152,6 +152,23 @@ hi FocusHL_blue guibg=#7070CF
 
 hi MasonNormal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#151515
 
+let g:terminal_color_0 = "#b38583"
+let g:terminal_color_2 = "#c19290"
+let g:terminal_color_4 = "#cf9f9d"
+let g:terminal_color_6 = "#ddacaa"
+let g:terminal_color_8 = "#ecbab8"
+let g:terminal_color_10 = "#fac8c5"
+let g:terminal_color_12 = "#ffd6d3"
+let g:terminal_color_14 = "#ffe4e1"
+let g:terminal_color_1 = "#ba8b89"
+let g:terminal_color_3 = "#c89896"
+let g:terminal_color_5 = "#d6a6a3"
+let g:terminal_color_7 = "#e4b3b1"
+let g:terminal_color_9 = "#f3c1be"
+let g:terminal_color_11 = "#ffcfcc"
+let g:terminal_color_13 = "#ffddda"
+let g:terminal_color_15 = "#ffebe8"
+
 " Helper Functions
 function! NofrilsFocusComments()
     hi Comment term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
