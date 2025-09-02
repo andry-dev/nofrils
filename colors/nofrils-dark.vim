@@ -72,16 +72,14 @@ hi VisualNOS term=reverse,underline cterm=reverse,underline ctermfg=NONE ctermbg
 " Diff
 hi DiffAdd term=NONE cterm=NONE ctermfg=2 ctermbg=NONE gui=NONE guifg=#00E000 guibg=NONE
 hi DiffAdded term=NONE cterm=NONE ctermfg=2 ctermbg=NONE gui=NONE guifg=#00E000 guibg=NONE
-hi DiffChange term=NONE cterm=NONE ctermfg=3 ctermbg=NONE gui=NONE guifg=#808000 guibg=NONE
-hi DiffChanged term=NONE cterm=NONE ctermfg=3 ctermbg=NONE gui=NONE guifg=#808000 guibg=NONE
+hi DiffChange term=NONE cterm=NONE ctermfg=3 ctermbg=NONE gui=NONE guifg=#8e8e00 guibg=NONE
+hi DiffChanged term=NONE cterm=NONE ctermfg=3 ctermbg=NONE gui=NONE guifg=#8e8e00 guibg=NONE
 hi DiffDelete term=NONE cterm=NONE ctermfg=1 ctermbg=NONE gui=NONE guifg=#D00000 guibg=NONE
 hi DiffRemoved term=NONE cterm=NONE ctermfg=1 ctermbg=NONE gui=NONE guifg=#D00000 guibg=NONE
-hi DiffText term=NONE cterm=NONE ctermfg=4 ctermbg=NONE gui=NONE guifg=#000080 guibg=NONE
+hi DiffText term=NONE cterm=NONE ctermfg=4 ctermbg=NONE gui=bold guifg=#b0b000 guibg=NONE
 
 " LSP Diagnostics
-"hi LspDiagnosticsDefaultInformation 
 hi LspDiagnosticsUnderlineInformation gui=underline
-"hi LspDiagnosticsDefaultHint
 hi LspDiagnosticsUnderlineHint gui=underline
 hi LspDiagnosticsDefaultError guifg=#F05070
 hi LspDiagnosticsUnderlineError gui=underline guifg=#F05070
